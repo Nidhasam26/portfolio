@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-bg"></div>
+    <header class="navbar">
+        <div class="nav-left">
+            <img src="images/netflix-logo.png" alt="Netflix logo" class="logo">
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#tvshows">TV Shows</a>
+                <a href="#movies">Movies</a>
+                <a href="#trending">Trending</a>
+            </nav>
+        </div>
+        <button class="btn btn-signin">Sign In</button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-copy">
+                <p class="eyebrow">Binge the best from Netflix</p>
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <p>Watch anywhere. Cancel anytime. Ready to watch? Enter your email to create or restart your membership.</p>
+                <form class="email-form" id="email-form">
+                    <input type="email" name="email" placeholder="Email address" required>
+                    <button type="submit" class="btn btn-start">Get Started</button>
+                </form>
+                <div class="hero-hint">No commitment, cancel anytime.</div>
+            </div>
+        </section>
+
+        <section class="trending" id="trending">
+            <div class="section-heading">
+                <span>Trending Now</span>
+                <h2>What everyone is watching this week.</h2>
+            </div>
+            <div class="trending-grid"></div>
+        </section>
+
+        <section class="feature-block" id="movies">
+            <div class="feature-card small-card">
+                <h3>Watch on your TV</h3>
+                <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="feature-card small-card">
+                <h3>Download your shows</h3>
+                <p>Save your favourites and watch offline anywhere.</p>
+            </div>
+            <div class="feature-card small-card">
+                <h3>Watch everywhere</h3>
+                <p>Stream on your phone, tablet, laptop and TV.</p>
+            </div>
+            <div class="feature-card small-card">
+                <h3>Profiles for kids</h3>
+                <p>Send kids on adventures with their favourite characters.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Netflix Clone • Built by Nidha using HTML, CSS & JavaScript 🎬</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
